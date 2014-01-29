@@ -1,0 +1,27 @@
+<messagebundle>
+  <msg name="Labs_Gadget_Year_View_Title">Vue annuelle</msg>
+  <msg name="Labs_Gadget_Year_View_Description">See the whole year at a glance with all your appointments.</msg>
+  <msg name="Labs_Gadget_Year_View_Button">Show Year View</msg>
+  <msg name="January">Janvier</msg>
+  <msg name="February">Février</msg>
+  <msg name="March">Mars</msg>
+  <msg name="April">Avril</msg>
+  <msg name="May">Mai</msg>
+  <msg name="June">Juin</msg>
+  <msg name="July">Juillet</msg>
+  <msg name="August">Août</msg>
+  <msg name="September">Septembre</msg>
+  <msg name="October">Octobre</msg>
+  <msg name="November">Novembre</msg>
+  <msg name="December">Décembre</msg>
+  <msg name="Labs_Gadget_Month_View_Tooltip">Click to display this month</msg>
+  <msg name="Short_Sunday">D</msg>
+  <msg name="Short_Monday">L</msg>
+  <msg name="Short_Tuesday">M</msg>
+  <msg name="Short_Wednesday">M</msg>
+  <msg name="Short_Thursday">J</msg>
+  <msg name="Short_Friday">V</msg>
+  <msg name="Short_Saturday">S</msg>
+  <msg name="Labs_This_Year_Button">Cette année</msg>
+  <msg name="Labs_Go_To_Year">Go</msg>
+</messagebundle>
