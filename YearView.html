@@ -308,7 +308,7 @@ author_email="syngron(a)gmail.com">
 				'td {vertical-align: top}',
 				'.clickable {cursor:pointer; color:', DARK_BLUE, '}',
 				'.clickable:hover {text-decoration: underline}', 
-				'.busy {color: red; }');
+				'.busy {text-align: left; color: red; }');
 				out.push('</style>');
 			return out.join('');
 		}
@@ -353,7 +353,7 @@ author_email="syngron(a)gmail.com">
 
 							document.getElementById(id).className += " busy ";
 							document.getElementById(id).title += e.title + " " + e.startTime.date + " " + e.endTime.date+ "; \n";
-							document.getElementById(id).innerText += "\n££" + e.title.substr(0,10);
+							document.getElementById(id).innerText += "\n" + e.title.substr(0,10);
 
 							currentDate.setDate(currentDate.getDate() + 1);
 
