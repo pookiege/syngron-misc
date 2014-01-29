@@ -320,21 +320,8 @@ author_email="syngron(a)gmail.com">
 		displayCurrentYear(tentativeYear);
 
 		// This is here to make it look nicer for gmail
-		gadgets.window.adjustHeight(2600);
+		//gadgets.window.adjustHeight(2600);
 
-		//for(i=1; i<=12; i++ ) {
-			//	year = tentativeYear;
-			//	month = i;
-			//	nxtMonth = parseInt(month)+1;
-			//	nxtYear = year;
-			//	if(nxtMonth > 12) {
-				//		nxtMonth = 1;
-				//		nxtYear = parseInt(year)+1;
-				//	}
-			//	startDate = {year: year, month: month, date: 1, hour: 0, minute: 0, second: 0};
-			//	endDate = {year: nxtYear, month: nxtMonth, date: 1, hour: 0, minute: 0, second: 0};
-			//	google.calendar.read.getEvents(eventCallback, "selected", startDate, endDate);
-			//}
 
 		function eventCallback(response) {
 
@@ -366,7 +353,7 @@ author_email="syngron(a)gmail.com">
 
 							document.getElementById(id).className += " busy ";
 							document.getElementById(id).title += e.title + " " + e.startTime.date + " " + e.endTime.date+ "; \n";
-							document.getElementById(id).innerText += "\n" + e.title.substr(0,14);
+							document.getElementById(id).innerText += "\n££" + e.title.substr(0,10);
 
 							currentDate.setDate(currentDate.getDate() + 1);
 
