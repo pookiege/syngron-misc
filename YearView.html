@@ -201,10 +201,6 @@ author_email="syngron(a)gmail.com">
 
 							out.push('<td class="dow" style="color:black">', DOW[dow], '</td>');
 
-							out.push('<td colspan=4');
-								out.push(" id='"+ y + "-" + (m+1) + "-" + d + "' ");
-
-								out.push('class="');
 								var c = 'normal';
 								if (y == todayYear && m == todayMonth && d == todayDate){
 									c = 'today';
@@ -213,10 +209,18 @@ author_email="syngron(a)gmail.com">
 									c = 'weekend ';
 								}
 
+							out.push('<td class="dow" class=">',c,' clickable" onclick="showDate(', y, ',', m+1, ',', d,
+								')">',d,'</td>');
+
+							out.push('<td colspan=4');
+								out.push(" id='"+ y + "-" + (m+1) + "-" + d + "' ");
+
+								out.push('class="');
+
 								out.push(c);
 
 								out.push(' clickable" onclick="showDate(', y, ',', m+1, ',', d,
-								')">', d, '</td>');
+								')">',  '</td>');
 
 							out.push('</tr>');
 
